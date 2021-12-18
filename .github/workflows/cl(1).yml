@@ -9,7 +9,7 @@ on:
   build-and-test:
     runs-on: ubuntu-latest
     
-        steps:
+  steps:
       - name: Install Go
         uses: actions/setup-go@v2
         with:
